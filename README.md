@@ -13,5 +13,13 @@ O método JSON.stringify(), em JavaScript, é utilizado para converter valores, 
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript.
 
+3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos
+você usaria para:
 
+● Verificar se contém a palavra "Script";
+● Remover a palavra "JavaScript" e gerar uma nova string;
+● Substituir "baseada" por "tem origem"
+
+
+4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas?
 
