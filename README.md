@@ -9,7 +9,7 @@ Surgindo originalmente a partir da sintaxe da linguagem JavaScript, o JSON passo
 
 2. Qual a diferença fundamental entre JSON.stringify() e JSON.parse()? Dê um exemplo prático de quando usar cada um.
 
-O método JSON.stringify(), em JavaScript, é utilizado para converter valores, como um objetos, arrays ou números para o formato JSON, isto é, transformá-los em uma string que segue a sintaxe JSON.
+O método JSON.stringify(), em JavaScript, é utilizado para converter valores, como objetos, arrays ou números para o formato JSON, isto é, transformá-los em uma string que segue a sintaxe JSON.
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript.
 
