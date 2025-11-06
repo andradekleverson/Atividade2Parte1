@@ -9,7 +9,7 @@ O JSON (JavaScript Object Notation) é um formato de texto leve destinado a repr
 
 O método JSON.stringify(), em JavaScript, é utilizado para converter valores, como um objetos, arrays ou números para o formato JSON, isto é, transformá-los em uma string que segue a sintaxe JSON.
 
-Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-os acessíveis e modificáveis ​​no código JavaScript.
+Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript.
 
 
 
