@@ -23,7 +23,7 @@ const identificador = {
 ```JS
 const string_JSON = JSON.stringify(identificador);
 ```
-> Dentro da variável string_JSON obteremos a seguinte string:
+> Dentro da variável string_JSON obteremos a string JSON acima.
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript:
 
@@ -34,7 +34,7 @@ const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 ```JS
 const identificador = JSON.parse(stringJSON);
 ```
-> Dentro da variável identificador obteremos o seguinte objeto:
+> Dentro da variável identificador obteremos o objeto JavaScript acima.
 
 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos
 você usaria para:
