@@ -27,7 +27,7 @@ const identificador = {
 ```JS
 const string_JSON = JSON.stringify(identificador);
 ```
-> Em seguida, ao usarmos a JSON.stringify, estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string, e armazenando o novo formato dentro da nova variável chamada string_JSON (que agora está pronta para ser enviada ao servidor).
+> Em seguida, ao usarmos a JSON.stringify, estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string, e armazenando o novo formato dentro de uma nova variável chamada string_JSON (que agora está pronta para ser enviada ao servidor).
 
 <br>
 
