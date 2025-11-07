@@ -30,7 +30,7 @@ const string_JSON = JSON.stringify(identificador);
 > Em seguida, ao usarmos a JSON.stringify(), estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string JSON, e armazenando o novo formato dentro de uma nova variável chamada string_JSON (que agora sim está pronta para ser enviada ao servidor).
 
 <br>
-
+<hr>
 <br>
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript:
@@ -53,8 +53,35 @@ console.log(identificador.nome)
 ## 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos você usaria para:
 
 ### ● Verificar se contém a palavra "Script";
+
+> Base de código
+<br>
+```JS
+```
+<br>
+
 ### ● Remover a palavra "JavaScript" e gerar uma nova string;
+
+> Base de código
+<br>
+```
+JS
+const teste = "string"
+```
+> Comentário
+```
+JS
+const teste = "string"
+```
+<br>
+
 ### ● Substituir "baseada" por "tem origem"
+
+> Base de código
+<br>
+```JS
+```
+<br>
 
 <br>
 
