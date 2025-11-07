@@ -79,7 +79,7 @@ const nova_string = velha_string.slice(11);
 
 console.log(nova_string)
 ```
-> .
+> Como eu sei exatamente onde e quando termina a palavra "JavaScript", eu posso usar o método. slice() para cortar os 11 primeiros caracteres da string.
 
 <br>
 
