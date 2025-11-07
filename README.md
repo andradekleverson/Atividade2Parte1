@@ -26,6 +26,14 @@ const stringJSON = JSON.stringify(perfil);
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript.
 
+```JS
+const stringJSON = '{"nome": "Kleverson", "idade": 21, "estudando": true}';
+```
+
+```JS
+const perfil = JSON.parse(stringJSON);
+```
+
 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos
 você usaria para:
 
@@ -34,5 +42,5 @@ você usaria para:
 ● Substituir "baseada" por "tem origem"
 
 
-4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas?
+4. Qual a vantagem de usar template strings (``) em vez de concatenaão com + para criar strings complexas?
 
