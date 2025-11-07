@@ -94,7 +94,7 @@ string = string.replace("é baseada", "tem origem");
 
 console.log(string)
 ```
-> .
+> Como eu utilizei o método .replace(), consigo buscar e trocar a string antiga pela nova.
 
 <br>
 
