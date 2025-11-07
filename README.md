@@ -54,10 +54,18 @@ console.log(identificador.nome)
 
 ### ● Verificar se contém a palavra "Script";
 
-> Base de código
 <br>
+
 ```JS
+const string = "JavaScript é baseada em ECMA Script";
+
+const verificador = string.includes("Script");
+
+console.log(verificador)
 ```
+
+> Através do console, meu código exibirá true ou false, indicando a presença ou ausência da palavra que eu desejo verificar na variável string.
+
 <br>
 
 ### ● Remover a palavra "JavaScript" e gerar uma nova string;
