@@ -43,7 +43,7 @@ const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 ```JS
 const identificador = JSON.parse(string_JSON);
 ```
-> Agora, o identificador voltou a ser um objeto JavaScript normal e todos os seus dados (identificador.nome, identificador.idade, etc) podem ser usados no nosso programa:
+> Agora, o identificador passou a ser um objeto JavaScript normal e todos os seus dados (identificador.nome, identificador.idade, etc) podem ser usados no nosso programa:
 ```JS
 console.log(identificador.nome)
 ```
