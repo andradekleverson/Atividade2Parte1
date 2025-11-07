@@ -30,12 +30,12 @@ Já o método JSON.parse() faz a operação inversa: ele converte uma string JSO
 ```JS
 const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 ```
-> Nesse caso, vamos fingir que recebemos essa string JSON de outro sistema e que queremos anexá-la ao nosso código:
+> Nesse caso, vamos fingir que recebemos essa string JSON de outro sistema e que queremos anexá-la ao nosso código JavaScript:
 
 ```JS
 const identificador = JSON.parse(string_JSON);
 ```
-> Agora, identificador voltou a ser um objeto JavaScript normal e nós podemos usar seus dados (identificador.nome, identificador.idade, etc) no nosso código:
+> Agora, o identificador voltou a ser um objeto JavaScript normal e nós podemos usar seus dados (identificador.nome, identificador.idade, etc) no nosso programa:
 ```JS
 console.log(identificador.nome)
 ```
