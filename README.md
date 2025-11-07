@@ -88,11 +88,11 @@ console.log(nova_string)
 <br>
 
 ```JS
-const velha_string = "JavaScript é baseada em ECMA Script";
+let string = "JavaScript é baseada em ECMA Script";
 
-const nova_string = velha_string.replace("é baseada", "tem origem");
+string = string.replace("é baseada", "tem origem");
 
-console.log(nova_string)
+console.log(string)
 ```
 > .
 
