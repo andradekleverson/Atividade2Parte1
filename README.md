@@ -23,7 +23,7 @@ const identificador = {
   estudante: true
 };
 ```
-> Nesse exemplo, nós criamos um objeto JavaScript chamado identificador, com o objetivo de simular um algoritmo de login que possa guardar e enviar os dados do usuário para um servidor que utiliza outro tipo de linguagem.
+> Nesse exemplo, nós criamos um objeto JavaScript chamado identificador, com o objetivo de simular um algoritmo de login que possa guardar e enviar os dados do usuário para um servidor que hospeda outro tipo de linguagem.
 ```JS
 const string_JSON = JSON.stringify(identificador);
 ```
