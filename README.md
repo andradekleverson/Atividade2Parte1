@@ -71,19 +71,16 @@ console.log(verificador)
 ### ● Remover a palavra "JavaScript" e gerar uma nova string;
 
 <br>
-```
-JS
+
+```JS
 const velha_string = "JavaScript é baseada em ECMA Script";
 
 const nova_string = velha_string.slice(11);
 
 console.log(nova_string)
 ```
-> Comentário
-```
-JS
-const teste = "string"
-```
+> .
+
 <br>
 
 ### ● Substituir "baseada" por "tem origem"
