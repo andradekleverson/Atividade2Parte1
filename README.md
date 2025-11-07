@@ -33,9 +33,12 @@ const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 > Nesse caso, vamos fingir que recebemos essa string JSON de outro sistema e que queremos anexá-la ao nosso código:
 
 ```JS
-const identificador = JSON.parse(stringJSON);
+const identificador = JSON.parse(string_JSON);
 ```
-> Agora, identificador voltou a ser um objeto JavaScript normal e nós podemos usar seus dados (identificador.nome, identificador.idade, etc) no nosso código.
+> Agora, identificador voltou a ser um objeto JavaScript normal e nós podemos usar seus dados (identificador.nome, identificador.idade, etc) no nosso código:
+```JS
+console.log(identificador.nome)
+```
 
 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos
 você usaria para:
