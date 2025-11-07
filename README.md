@@ -4,9 +4,9 @@
 
 <br>
 
-O JSON (JavaScript Object Notation) é um formato de texto leve usado para "organizar" dados estruturados com uma notação, leitura e escrita super fáceis de entender, tanto por humanos quanto por máquinas.
+O JSON (JavaScript Object Notation) é um formato de texto leve utilizado para "organizar" dados estruturados com uma notação, leitura e escrita super fáceis de entender, tanto por humanos quanto por máquinas.
 
-O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript, obviamente, mas hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre as linhas de códigos de linguagens diferentes muito mais fácil.
+O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript. Hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (troca) de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre as linhas de códigos de linguagens diferentes muito mais fácil.
 
 <br>
 
@@ -23,13 +23,14 @@ const identificador = {
   estudante: true
 };
 ```
-> Primeiro, nós criamos um objeto chamado identificador, com o objetivo de simular um algoritmo de login e enviar os dados do usuário para um servidor. Depois, vamos usar o método JSON.stringify:
+> Nesse exemplo, nós criamos um objeto JavaScript chamado identificador, com o objetivo de simular um algoritmo de login que possa guardar e enviar os dados do usuário para um servidor.
 ```JS
 const string_JSON = JSON.stringify(identificador);
 ```
-> Dentro da nossa variável string_JSON, teremos o mesmo conteúdo do objeto, mas agora está convertido em uma string JSON, pronta para ser enviada ou armazenada.
+> Em seguida, ao usarmos a JSON.stringify, estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string JSON, e armazenando o novo formato dentro da nossa variável chamada string_JSON (que agora está pronta para ser enviada ao servidor).
 
-<br>
+<br
+
 <br>
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript:
@@ -37,12 +38,12 @@ Já o método JSON.parse() faz a operação inversa: ele converte uma string JSO
 ```JS
 const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 ```
-> Nesse caso, vamos fingir que recebemos essa string JSON de outro sistema e que queremos anexá-la ao nosso código JavaScript:
+> Nesse caso, vamos supor que recebemos essa string JSON de outro sistema e queremos anexá-la ao nosso código JavaScript no formato objeto:
 
 ```JS
 const identificador = JSON.parse(string_JSON);
 ```
-> Agora, o identificador voltou a ser um objeto JavaScript normal e nós podemos usar seus dados (identificador.nome, identificador.idade, etc) no nosso programa:
+> Agora, o identificador voltou a ser um objeto JavaScript normal e todos os seus dados (identificador.nome, identificador.idade, etc) podem ser usados no nosso programa:
 ```JS
 console.log(identificador.nome)
 ```
