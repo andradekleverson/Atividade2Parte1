@@ -6,7 +6,7 @@
 
 O JSON (JavaScript Object Notation) é um formato de texto usado para "organizar" dados estruturados com uma notação, leitura e escrita super fáceis de entender, tanto por humanos quanto por máquinas.
 
-O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript. Hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (ou seja, troca) de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre linhas de códigos de linguagens diferentes muito mais fácil.
+O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript, mas hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (ou seja, troca) de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre linhas de códigos de linguagens diferentes muito mais fácil. Esse é o motivo por trás da popularidade do JSON.
 
 <br>
 
@@ -23,11 +23,11 @@ const identificador = {
   estudante: true
 };
 ```
-> Nesse exemplo, nós criamos um objeto JavaScript chamado identificador, com o objetivo de simular um algoritmo de login que possa guardar e enviar os dados do usuário para um servidor.
+> Nesse exemplo, nós criamos um objeto JavaScript chamado identificador, com o objetivo de simular um algoritmo de login que possa guardar e enviar os dados do usuário para um servidor que utiliza outro tipo de linguagem.
 ```JS
 const string_JSON = JSON.stringify(identificador);
 ```
-> Em seguida, ao usarmos a JSON.stringify, estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string, e armazenando o novo formato dentro de uma nova variável chamada string_JSON (que agora está pronta para ser enviada ao servidor).
+> Em seguida, ao usarmos a JSON.stringify(), estamos, na prática, convertendo o conteúdo do nosso objeto JavaScript para uma string JSON, e armazenando o novo formato dentro de uma nova variável chamada string_JSON (que agora sim está pronta para ser enviada ao servidor).
 
 <br>
 
