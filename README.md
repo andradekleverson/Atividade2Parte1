@@ -85,11 +85,11 @@ console.log(nova_string)
 
 ### ● Substituir "baseada" por "tem origem"
 
-> Base de código
 <br>
+
 ```JS
 ```
-<br>
+> .
 
 <br>
 
