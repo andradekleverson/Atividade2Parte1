@@ -6,7 +6,7 @@
 
 O JSON (JavaScript Object Notation) é um formato de texto usado para "organizar" dados estruturados com uma notação, leitura e escrita super fáceis de entender, tanto por humanos quanto por máquinas.
 
-O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript. Hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (troca) de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre as linhas de códigos de linguagens diferentes muito mais fácil.
+O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript. Hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (ou seja, troca) de dados entre si. Isso aconteceu porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação, o que tornou a comunicação entre as linhas de códigos de linguagens diferentes muito mais fácil.
 
 <br>
 
