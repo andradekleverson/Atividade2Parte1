@@ -13,7 +13,7 @@ O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript, obviame
 O método JSON.stringify(), em JavaScript, é utilizado para converter valores, como objetos, arrays ou números para o formato JSON, isto é, transformá-los em uma string formatada que segue a sintaxe JSON:
 
 ```JS
-const perfil = {
+const identificador = {
   nome: "Kleverson",
   idade: 21,
   estudante: true
@@ -21,17 +21,17 @@ const perfil = {
 ```
 
 ```JS
-const stringJSON = JSON.stringify(perfil);
+const string_JSON = JSON.stringify(identificador);
 ```
 
 Já o método JSON.parse() faz a operação inversa: ele converte uma string JSON de volta para um objeto JavaScript, tornando-a acessível e modificável ​​no código JavaScript:
 
 ```JS
-const stringJSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
+const string_JSON = '{"nome": "Kleverson", "idade": 21, "estudante": true}';
 ```
 
 ```JS
-const perfil = JSON.parse(stringJSON);
+const identificador = JSON.parse(stringJSON);
 ```
 
 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos
