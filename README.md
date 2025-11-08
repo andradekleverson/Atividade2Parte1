@@ -8,6 +8,8 @@ O JSON (JavaScript Object Notation) é um formato de texto usado para "estrutura
 
 O JSON surgiu originalmente a partir da sintaxe da linguagem JavaScript, mas hoje em dia seu formato é aproveitado por diversas linguagens para o intercâmbio (ou seja, troca) de dados entre si. Isso se deve porque sua estrutura é tão simples que pode ser lida e escrita por praticamente qualquer linguagem de programação. Esse é o principal motivo por trás da popularidade do JSON.
 
+Nesse cenário, o JSON é uma alternativa ideal de mediação entre uma linguagem de programação que queira se comunicar com a outra ou vice-versa. 
+
 <br>
 
 ## 2. Qual a diferença fundamental entre JSON.stringify() e JSON.parse()? Dê um exemplo prático de quando usar cada um.
