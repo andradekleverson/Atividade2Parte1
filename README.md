@@ -106,6 +106,6 @@ console.log(string)
 
 <br>
 
-A principal vantagem de usar Template Strings é que elas oferecem um código muito mais limpo e legível. Você pode simplesmente inserir a sua variável diretamente no texto com `${}`. Assim, a necessidade de quebrar a string e usar o + a cada variável é eliminada e você mantém a uniformidade do seu texto. Além de que é muito fácil esquecer um espaço ou uma aspa na forma de concatenação por +.
+A principal vantagem de usar Template Strings é que elas oferecem um código muito mais limpo e legível. Você pode simplesmente inserir a sua variável diretamente no texto com `${}`. Assim, a necessidade de quebrar a string e usar o + a cada variável é eliminada e você mantém a uniformidade do seu texto. Além de que é muito fácil esquecer um espaço ou uma aspa na forma de concatenação por +, especialmente se você estiver com uma grande demanda em mãos.
 
 <br>
