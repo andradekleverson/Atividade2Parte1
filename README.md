@@ -123,7 +123,14 @@ console.log(concatenacao)
 <br>
 
 ```JS
+const nome = "Kleverson";
+const idade = 21;
+
+const template_strings = `Olá, eu me chamo ${nome}! Eu tenho ${idade} anos de idade.`;
+
+console.log(template_strings)
 ```
+> Template Strings
 
 <br>
 
